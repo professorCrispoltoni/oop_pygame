@@ -10,11 +10,11 @@ uso della libreria pygame per introdurre la programmazione a oggetti
 
 ## 2. simple maze
 
-![Figura 1](../images/maze.png)  
-*Figura 1 – maze with walls, player and target*
+![Figura 2](../images/maze.png)  
+*Figura 2 – maze with walls, player and target*
 
 ## 3. maze with enemy
 
-![Figura 1](../images/maze enemy.png)  
-*Figura 1 – maze with enemy and a mission for player to reach the target*
+![Figura 3](../images/maze enemy.png)  
+*Figura 3 – maze with enemy and a mission for player to reach the target*
 
