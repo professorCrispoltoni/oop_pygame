@@ -2,8 +2,6 @@
 
 ## 1. wall
 
-ciao sono leonardo
-
 ![Figura 1](../images/wall.png)  
 *Figura 1 – player, goal e wall*
 
