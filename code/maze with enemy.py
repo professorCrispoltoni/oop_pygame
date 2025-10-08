@@ -12,8 +12,15 @@ BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
+WHITE = (255,255,255)
  
 # Giocatore
+player_rect = pygame.Rect(500, 500, 100, 100)
+player_img = pygame.image.load("player.png")
+player_img = pygame.transform.scale(player_img, (40, 40))  # stessa dimensione del Rect
+#win.blit(player_img, (player_rect.x, player_rect.y))
+
+
 player = pygame.Rect(40, 45, 30, 30)
 vel = 4
  
@@ -145,13 +152,17 @@ while run:
  
     # Disegna tutto
     win.fill(BLACK)
+    
     pygame.draw.rect(win, YELLOW, player)
     pygame.draw.rect(win, GREEN, goal)
     pygame.draw.rect(win, RED, nemico1)
     pygame.draw.rect(win, RED, nemico2)
     pygame.draw.rect(win, RED, nemico3)
+    
     for wall in walls:
         pygame.draw.rect(win, BLUE, wall)
+        
+    win.blit(player_img, (player_rect.x, player_rect.y))
  
     pygame.display.update()
     clock.tick(60)
