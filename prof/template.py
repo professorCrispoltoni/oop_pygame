@@ -1,22 +1,19 @@
-import pygame 
+import pygame
+
+#importa le librerie necessarie
 
 # Inizializza pygame 
 pygame.init() 
 
- 
-
 # TODO 1: crea la finestra di gioco (es. 800x600) 
 win = pygame.display.set_mode((800, 600)) 
 pygame.display.set_caption("Gioco con pygame.Rect") 
-
 
 # Colori utili 
 WHITE = (255, 255, 255) 
 BLACK = (0, 0, 0) 
 RED = (255, 0, 0) 
 GREEN = (0, 255, 0) 
-
- 
 
 # TODO 2: crea il giocatore come oggetto pygame.Rect 
 # (usa quattro valori: x, y, larghezza, altezza) 
@@ -40,7 +37,6 @@ run = True
 won = False 
 
  
-
 while run: 
     for event in pygame.event.get(): 
         if event.type == pygame.QUIT: 
