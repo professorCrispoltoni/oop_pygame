@@ -7,13 +7,14 @@ pygame.init()
 
 # TODO 1: crea la finestra di gioco (es. 800x600) 
 win = pygame.display.set_mode((800, 600)) 
-pygame.display.set_caption("Gioco con pygame.Rect") 
+pygame.display.set_caption("Gioco con pygame e uso classe rect") 
 
 # Colori utili 
 WHITE = (255, 255, 255) 
 BLACK = (0, 0, 0) 
 RED = (255, 0, 0) 
 GREEN = (0, 255, 0) 
+BLUE = (0, 0, 255) 
 
 # TODO 2: crea il giocatore come oggetto pygame.Rect 
 # (usa quattro valori: x, y, larghezza, altezza) 
@@ -30,7 +31,6 @@ GREEN = (0, 255, 0)
  
 
 # Velocità del giocatore 
-
 vel = 5 
 clock = pygame.time.Clock() 
 run = True 
