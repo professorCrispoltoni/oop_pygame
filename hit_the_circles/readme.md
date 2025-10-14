@@ -23,7 +23,7 @@ Il risultato finale sarà un mini gioco in cui:
 | **Funzioni** | Servono per organizzare il codice (es. `disegna_cerchi`, `muovi_cerchi`, `aggiungi_cerchio`, `clic_su_cerchi`). |
 | **Eventi Pygame** | Gli eventi come `MOUSEBUTTONDOWN` e `KEYDOWN` vengono gestiti nel ciclo principale. |
 | **Coordinate** | `(x, y)` rappresentano il centro del cerchio. |
-| **Collisione clic–cerchio** | Si calcola con la distanza: `math.sqrt((x - mx)**2 + (y - my)**2) <= r`. |
+| **Collisione clic–cerchio** | Si calcola con la distanza: `math.sqrt((x - mouse_x)**2 + (y - mouse_y)**2) <= r`. |
 
 ---
 
