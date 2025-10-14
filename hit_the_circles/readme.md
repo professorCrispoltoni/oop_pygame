@@ -1,6 +1,6 @@
 # 🟢 Lezione: Colpisci i Cerchi
 
-![figura 1]("../images/hit circles.png")
+![figura 1](../images/hit circles.png)
 
 ## 🎯 Obiettivi
 In questa  lezione ripasserai:
