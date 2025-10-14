@@ -10,10 +10,10 @@
 - Aggiungi più muri
 
 ![Figura 1](../images/wall.png)
-Figura con singolo muro
+*Figura con singolo muro*
 
 ![Figura 2](../images/maze.png)
-Figura con labirinto
+_Figura con labirinto_
 
 ![Figura 3](../images/maze_enemy.png)
 Figura con labirinto e nemici
