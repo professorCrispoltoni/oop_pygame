@@ -1,5 +1,7 @@
 # 🟢 Lezione: Colpisci i Cerchi
 
+![figura 1]("../images/hit circles.png")
+
 ## 🎯 Obiettivi
 In questa  lezione ripasserai:
 - L’uso di **liste** per memorizzare oggetti (in questo caso cerchi)
