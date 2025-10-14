@@ -1,19 +1,19 @@
 # DAL MURO AL LABIRINTO
 
-## CREA UN RETTANGOLO PLAYER
+## Crea un rettangolo Player
 
-### CREA UN RETTANGOLO OBIETTIVO
+### Crea un rettangolo Obiettivo
 
-#### CREA UN MURO
+#### Crea un muro
 
-- gestisci le collisioni
-- aggiungi più muri
+- Gestisci le collisioni
+- Aggiungi più muri
 
-![figura 1](../images/wall.png)
-* figura con singolo muro *
+![Figura 1](../images/wall.png)
+Figura con singolo muro
 
-![figura 2](../images/maze.png)
-* figura con labirinto *
+![Figura 2](../images/maze.png)
+Figura con labirinto
 
-![figura 3](../images/maze_enemy.png)
-* figura con labirinto e nemici * 
+![Figura 3](../images/maze_enemy.png)
+Figura con labirinto e nemici
