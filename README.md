@@ -25,6 +25,6 @@ Ogni cartella contiene:
 ## 🚀 Come iniziare
 Clona la repo e lavora su ciascuna lezione in ordine:
 ```bash
-git clone https://github.com/<tuo-username>/python-lessons.git
-cd python-lessons/01_liste_funzioni
+git clone https://github.com/professorCrispoltoni/oop_pygame.git
+cd python-lessons/lesson1
 python esercizi_base.py
