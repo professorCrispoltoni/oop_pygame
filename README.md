@@ -26,5 +26,5 @@ Ogni cartella contiene:
 Clona la repo e lavora su ciascuna lezione in ordine:
 ```bash
 git clone https://github.com/professorCrispoltoni/oop_pygame.git
-cd python-lessons/lesson1
-python esercizi_base.py
+cd python-lessons/Lesson1
+python lesson1_template.py
